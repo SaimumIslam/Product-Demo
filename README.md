@@ -1,22 +1,30 @@
+#Product App demo
+##Screenshots
+![Pic-1](https://user-images.githubusercontent.com/25328307/104198077-00a71980-5450-11eb-9cd0-a702698bba07.png)
+![Pic-2](https://user-images.githubusercontent.com/25328307/104198018-eb31ef80-544f-11eb-93cf-63edac8154b5.png)
+![Pic-3](https://user-images.githubusercontent.com/25328307/104198159-17e60700-5450-11eb-9e75-30d9de4f8304.png)
+
+![Pic-5](https://user-images.githubusercontent.com/25328307/104198668-b2dee100-5450-11eb-887f-0f188cff0c98.PNG)|![Pic-6](https://user-images.githubusercontent.com/25328307/104198680-b4100e00-5450-11eb-9e6f-60d59300a8e0.PNG)
+![Pic-4](https://user-images.githubusercontent.com/25328307/104198660-b07c8700-5450-11eb-816e-791b45eee3af.PNG)|
+
 ## File Structure
+**action**: The action of application<br />
+**data**: This contains all static data naming with files<br />
 
-Folder names will be all small_and_undercore and File name will be InCapital.
-only menu and data file name willBe this type
+**components**: Here will be all usefull components for out react app<br />
+          |\_ \_ hoc: all higher order components<br />
+          |\_ \_ _composite: child component of sections<br />
+          |\_ \_ \_css:This will build using general css and react components<br />
 
-components: Here will be all usefull components for out react app<br />
-|
-|\_ \_ _basic:This is all customised material ui components
-|_ \_ \_composite:This is all child component of basic folder
-|\_ \_ \_css:This will build using general css and react components<br />
+          
 
-features: This have folders naming with sections needed.<br />
+**sections**: files naming with part of spa<br />
+**theme**: containg the default theme<br />
+**menus**: This have all menus naming with sections<br />
 
-sections: This have folders naming with per pages and all section of that page will present there<br />
 
-pages: This have all page names<br />
+**app**: The root page<br />
 
-+menus: This have all menus naming with sections<br />
-+data: This contains all static data naming with files<br />
 
 ## Available Scripts
 
@@ -28,42 +36,6 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
+To build statically
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# Product-Demo
